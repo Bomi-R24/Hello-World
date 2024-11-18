@@ -12,16 +12,18 @@ int main() {
     //Prompt user for full name
 
     cout << "Please Enter Your Full Name: ";
-    cin >> myName;
+    getline (cin, myName);
 
-    cout << "Your Name is " << myName << endl; 
+    cout << "Your Name is: " << myName << endl; 
 
     //Prompt User For their Description
 
-    cout << "Please Describe Yourself: " << endl;
+    cout << "Please Describe Yourself: ";
     getline (cin, description);
 
     cout << "You said the following about yourself: " << description << endl;
+
+    return 0;
     
     
 

@@ -15,7 +15,7 @@ getline(cin, myFirstName);
 cout << "Please Enter Your Second Name: ";
 getline(cin, mySecondName);
 
-cout << "Your Name is: " << myFirstName <<" "<<mySecondName << endl;
+cout << "Your Name is: " << myFirstName <<" "<< mySecondName << endl;
 
 cout << "What is your favourite meal? ";
 getline(cin, myFavouriteMeal);
