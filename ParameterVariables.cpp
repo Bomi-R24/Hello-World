@@ -9,7 +9,7 @@ void addAndDisplay (int value1, int value2) {
 int main() {
     int arg1 = 10;
     int arg2 = 20;
-    //Call th function with arg1 and arg2 as arguments
+    //Call the function with arg1 and arg2 as arguments
     addAndDisplay(arg1,arg2);
     return 0;
 }

@@ -6,7 +6,7 @@ void myFunction() {
     //Local variable declarations and initialization
     int localVar = 30;
     const int age = 25; //Constant local variable
-    cout<<"localVar:" <<localVar>>
+    cout<<"localVar:" <<localVar <<endl;
 }
 
 int main() {
