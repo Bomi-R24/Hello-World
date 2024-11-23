@@ -3,7 +3,7 @@ using namespace std;
 
 int main () {
     int option; //Switch Variable
-    cout << "Hi. This is your BBIT Sem 1 Timetable (May-Aug 2024)" << endl;
+    cout << "Hi. This is your BBIT Semester 1 Timetable (May-Aug 2024)" << endl;
     cout << "\n1.Monday\n2.Tuesday\n3.Wednesday\n4.Thursday\n5.Friday" << endl;
     cout << "\nPlease select day of choice (e.g 1,2,3,4,5)" << endl;
     cin >> option;
@@ -14,7 +14,7 @@ int main () {
     cout << "Monday Classes:" << endl;
     cout << "\t1.BBIT 1106: Maths for Business" << endl; 
     cout << "\t2.BBIT 1102: Intro to Programming" << endl;
-    break;
+    break; 
 
     case 2:
     cout << "Tuesday Classes:" << endl;
