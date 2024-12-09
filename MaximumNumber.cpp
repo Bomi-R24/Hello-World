@@ -20,7 +20,7 @@ int main() {
             cout << "The maximum number is: " << num2 << endl;
             break;
         default:
-            // This is a fallback, but it won't actually be used in this case
+            // This is a fallback.
             cout << "Invalid input!" << endl;
             break;
     }
